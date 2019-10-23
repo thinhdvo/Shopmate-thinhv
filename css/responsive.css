@@ -1,0 +1,264 @@
+@media only screen and (max-width: 1200px) {
+	#mainnav ul.menu > li:not(:last-child){
+		margin-right: 0px;
+	}
+	#mainnav ul.menu > li.menu-item-has-children > a:after{
+		right: 5px;
+	}
+	#mainnav{
+		padding: 0px;
+	}
+	
+}
+@media only screen and (max-width: 991px) {
+
+	/* CATEGORY */
+	.menu-icon-toggle,
+	.btn-submenu {
+		display: block;
+	}
+	.bg-link{
+		padding: 20px;
+	}
+	/* top bar */
+	.account{
+		padding-left: 0px;
+	}
+	.account .register a{
+		margin: 0px;
+	}
+	.icons-bag{
+		margin-right: 0px;
+	}
+	.top-bar.tb1{
+		padding: 10px 0px;
+		margin: 0px;
+	}
+	.menu-topbar .nav-topbar{
+		margin: 10px 0px;
+	}
+	.menu-topbar .nav-topbar .topbar__help,
+	.menu-topbar .nav-topbar .topbar__sell
+	{
+		margin-left: 0px;
+		letter-spacing: 0px;
+	}
+	.wrap-language .language-current img{
+		padding-top: 0px;
+		padding-bottom: 5px;
+		margin-right: 4px;
+	}
+	.car-topbar .mini-cart{
+		float: none;
+		margin-left: 5px;
+	}
+	
+	.wrap-language .language-current span{
+		vertical-align: unset;
+	}
+	/* main nav */
+	#main-nav{
+		display:none;
+	}
+	#main-mobi{
+		position: relative;
+		clear: both;
+		overflow: hidden;
+		margin: 0px;
+	}
+	#main-mobi .menu-item{
+		float: none;
+		color: white;
+		padding: 14px 26px;
+		font-size: 17px;
+		background: #232323;
+		width: 100%;
+		margin-right: 0px;
+	}
+	#main-mobi .menu-item:hover{
+		background: #4a4a4a;
+	}
+	.icon-cart{
+		position: absolute;
+		top: -12px;
+		right: 38px;
+	}
+	.search-form input{
+		display: none;
+	}
+	.nav-top-cart-wrapper .nav-shop-cart,
+	.search-header .ic{
+		display: none;
+	}
+
+	/* mobile - button */
+	.mobile-button{
+		background: url('../images/icon/controls-burger-white.png');
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 55px;
+		height: 55px;
+		cursor: pointer;
+	}
+	/* SHOP DETAIL */
+	/* Shop detail - img */
+	.header-st1 .secondary-menu .style1 .mobile-button{
+		right: 3px;
+	}
+	.flexslider .slides img{
+		margin: 0px;
+		height: auto !important;
+	}
+	.shop-details .wrap-cht .size .list-size a{
+		margin: 0px;
+	}
+	.shop-details .wrap-cht .size .size-wrap{
+		justify-content: flex-start;
+	}
+	.shop-details .wrap-cht .size .size-rg{
+		margin-top: 0px;
+		margin-left: 10px;
+	}
+	.shop-details .wrap-cht .size{
+		width: 100%;
+	}
+	/* Shop detail - Review */
+	.form-add-review .form-gr label{
+		margin-right: 10px;
+	}
+	.form-add-review .form-gr input{
+		height: auto;
+		width: 100%;
+		margin-top: 5px;
+	}
+	.form-add-review .form-gr:nth-child(2) textarea{
+		width: 100%;
+		height: unset;
+		margin-top: 5px;
+	}
+	.subscribe-wrap{
+		flex-direction: column;
+		padding: 23px 0px;
+		margin: 0;
+	}
+	.subscribe-wrap .text{
+		margin: 0;
+		font-size: 14px;
+	}
+	.form-subscribe{
+		margin-top: 15px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	/* top bar */
+	
+	.account, .menu-topbar, .car-topbar{
+		text-align: center;
+	}
+	.car-topbar .mini-cart{
+		margin-left: 15px;
+		margin-top: 0px;
+	}
+	.icons-bag{
+		margin-right: 10px;
+	}
+	.subscribe-wrap .form-subscribe input, .search-form input{
+		width: 100%;
+	}
+	/* Slider */
+	.all-path .mens-wear{
+		font-size: 38px;
+	}
+	
+	/* Shop detail - review */
+	.shop-details .content-bottom{
+		padding: 48px 10px 100px 10px;
+	}
+	
+	.footer .menu-footer{
+		display: flex;
+		justify-content: space-around;
+	}
+	.footer .menu-footer li{
+		margin: 0px !important;
+	}
+}
+@media only screen and (max-width: 575px) {
+	
+	.all-path .col-three .links-3,
+	.all-path .col-three .links-2{
+		padding: 0px;
+		margin: 0px;
+	}
+	.all-path .col-three .slider__2{
+		margin: 0px;
+	}
+	.footer .menu-footer li a{
+		font-size: 20px;
+	}
+	.extra-menu, .mainnav, #logo{
+		margin: 0px;
+	}
+	.subscribe-wrap{
+		align-items: flex-start;
+	}
+	.subscribe-wrap .form-subscribe button{
+		margin-top: 15px;
+	}
+	.banner-wrap .cr-se{
+		font-size: 36px;
+	}
+	.banner-wrap .text{
+		font-size: 15px;
+	}
+	.banner-wrap .fl-btn a{
+		font-size: 12px;
+		padding: 9px 15px 8px 13px;
+	}
+	.footer .menu-footer li a{
+		font-size: 18px;
+	}
+	.product-reviews .evaluate .text,
+	.product-reviews .evaluate .evaluate-cmt .heart-cmt{
+		padding: 0;
+	}
+	.shop-details .wrap-cht .fl-btn a{
+		padding: 9px 22px 8px 22px;
+		font-size: 12px;
+	}
+	.shop-details .wrap-cht .title a,
+	.shop-details .wrap-cht .price{
+		font-size: 18px;
+	}
+
+}
+@media only screen and (max-width: 480px) {
+	#mainnav-mobi > ul{
+		padding: 0px 15px;
+	}
+	.footer .menu-footer li a{
+		font-size: 14px;
+	}
+	.footer .icon-social a i{
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+	}
+	.footer .breadcrumbs-ft li a{
+		font-size: 12px;
+	}
+	/* Shop detail */
+	.form-add-review .form-gr:nth-child(3) .icon-star,
+	.form-add-review .form-gr:nth-child(3) .fl-btn a{
+		position: unset;
+		text-align: center;
+	}
+	.subscribe-wrap .form-subscribe button{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.subscribe-wrap .form-subscribe .ic{
+		margin-right: 5px;
+	}
+}
